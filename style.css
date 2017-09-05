@@ -1,21 +1,28 @@
 html {
   background: lightgrey;
   font-size: 14px;
+  margin:10px;
 }
 
 #heading {
   text-align: center;
+
 }
 
-body{
-  background-color:#fefefe;
-  margin: .5rem;
-  padding: .5rem;
-  border: thick black solid;
+img{
+  max-width:100%;
+}
+
+#body{
+  background-color:#fff;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border: thin black solid;
+
 }
 
 #helioQuote{
-  border: Thin black solid;
+
   margin: .5rem;
   padding: .5rem;
   text-align: center;
@@ -35,10 +42,15 @@ list-style: none;
 }
 
 #fightRecord{
-  border;
+  margin: .5rem;
+  padding: .5rem
 
 }
 
+@media screen and (max-width: 200px) {
+  table {
+    border: 1;
+  }
 figure{
   float: right;
   width: 30%;
@@ -48,15 +60,15 @@ figure{
   text-indent: 0;
   border: thin silver solid;
   border-top: none;
-  margin:0.2rem;
-  padding:0.2rem;
+  margin: .2rem;
+  padding: .2rem;
   padding-top: 0;
   display: table;
   background-color: #fff;
 }
 
 figcaption {
-  background-color: #fff;
+  background-color: #ffff;
   display: table-caption;
   caption-side: top;
   border: thin silver solid;
@@ -71,6 +83,9 @@ img.scaled{
   max-height: 100%;
 }
 
-footer{
-  background-color:lightgrey;
-}
+.footer{
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+
+}''
