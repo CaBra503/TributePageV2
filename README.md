@@ -1,3 +1,0 @@
-# TributePageV2
-This page is in tribute to Helio Gracie and the Gracie family legacy.
-The Gracie family are the reason why the world recognizes the fighting style called Brazillian JiuJitsu...
